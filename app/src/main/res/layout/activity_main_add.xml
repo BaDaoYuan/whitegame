@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent" >
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="0dp"
+            android:layout_height="103dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:background="@drawable/shape_text_white_true" />
+
+        <TextView
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:id="@+id/tv_2"
+            android:layout_width="0dp"
+            android:layout_height="103dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_text_white_false" />
+
+        <TextView
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:id="@+id/tv_3"
+            android:layout_width="0dp"
+            android:layout_height="103dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_text_white_false" />
+
+        <TextView
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:id="@+id/tv_4"
+            android:layout_width="0dp"
+            android:layout_height="103dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_text_white_false" />
+        
+    </LinearLayout>
+
+</LinearLayout>
